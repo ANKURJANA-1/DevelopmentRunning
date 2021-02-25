@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="WELCOME !"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_50sdp"
+        android:id="@+id/btnFacbook"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:background="@drawable/ic_facbook_bg"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_facbook"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Continue with facebook"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnPhone"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:background="@drawable/ic_phone_bg"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_phone"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Continue with phone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnGoogle"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:background="@drawable/ic_google_bg"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_google"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Continue with google"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnMail"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:background="@drawable/ic_email_bg"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_email"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Continue with Email"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
